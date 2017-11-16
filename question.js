@@ -4,8 +4,8 @@ class Question{
     this.content = content
   }
   static All(){
-    return [1, 2]
+    return []
   }
 }
 
-Question._All()
+Question.All()
