@@ -19,6 +19,6 @@ Question._All = []
 Question.Find(content){
   return this.All().filter(function(question){
     return question.content === content;
-  }
-  
+  })
+
 }
