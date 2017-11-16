@@ -3,7 +3,7 @@ class Question{
   constructor(content){
     this.content = content
   }
-  static._All(){
+  static All(){
     return []
   }
 }
