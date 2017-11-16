@@ -1,7 +1,7 @@
 'use strict';
 class Question(){
   static All(){
-    return[]
+    return this._All[]
   }
   }
 }
