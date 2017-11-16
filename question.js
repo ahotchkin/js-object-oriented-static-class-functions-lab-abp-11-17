@@ -1,7 +1,6 @@
 'use strict';
-class Question(){
-  static All(){
-    return this._All[]
-  }
+class Question{
+  constructor(content){
+    this.content = content
   }
 }
